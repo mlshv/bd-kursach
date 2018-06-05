@@ -44,7 +44,7 @@ export const props = {
 export const items = [
   {
     name: 'Nail Polish Pink',
-    image: 'https://drive.google.com/open?id=1KHSR35XxR2EPy6aT9TlyZQEixDD0mOih',
+    image: 'https://lh5.googleusercontent.com/tzJeXIki7sTPyNcdJjNG0JMa4hc2WEBjZPNgh2LD-9mKSY6qY51It3rNa8c1lzq2hxlCT1XtxdADLsbrEBZQ=w1299-h675',
     props: {
       [props.COLOR.name]: props.COLOR.values.pink,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -55,7 +55,7 @@ export const items = [
   },
   {
     name: 'Nail Polish Orange',
-    image: 'https://drive.google.com/open?id=1umkpTsWEVxh7hOROkJ4yf6OJNCC2iNVa',
+    image: 'https://lh6.googleusercontent.com/fo3aLeCTww2QboUm3_I6APRSqCK1gZwkoWpj8ew-InYeG4PpuTDoZY0y3K0o605ERp6MX5fCfS7sgnGGZzHk=w1299-h675',
     props: {
       [props.COLOR.name]: props.COLOR.values.orange,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -66,7 +66,7 @@ export const items = [
   },
   {
     name: 'Nail Polish Pup',
-    image: 'https://drive.google.com/open?id=1a5VbQRXSsdJiCMqMoO-xo64_9IZjI1i8',
+    image: 'https://lh6.googleusercontent.com/REhnoOWumH1I5_D7X_Y9ScxjRLwR4LYi5ZOZhMlfKh8CiZ4QU_YlsfiEkve5svPBAzR4obZ3hSw6IIp9uorc=w1299-h675',
     props: {
       [props.COLOR.name]: props.COLOR.values.purple,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -77,7 +77,7 @@ export const items = [
   },
   {
     name: 'Nail Polish Black',
-    image: 'https://drive.google.com/open?id=1YXkHcRQYZLX-pLQ3JSAeefdICXjQTq4l',
+    image: 'https://lh3.googleusercontent.com/yvhvfGJGZFn0TweXNkSn6Mmg2_WBaTPEtjxiAiTxAAt1-HwXhJHkoB_jEX3loLBBCkvpKlR9KNJnL1PnAhMc=w1299-h675',
     props: {
       [props.COLOR.name]: props.COLOR.values.black,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -88,7 +88,7 @@ export const items = [
   },
   {
     name: 'Nail Polish Red L',
-    image: 'https://drive.google.com/open?id=1tmLnPen8xnOxfvqut601gP3WHLfPTmDl',
+    image: 'https://lh4.googleusercontent.com/PijWFdVLonXN8LpVeyaKZS5Lu0w9O5SU2hwTOnf2SJeyL-RDXbvmAcTuUGIkkNEBLgy1GyLDtLqxwOw2f-1d=w1299-h626',
     props: {
       [props.COLOR.name]: props.COLOR.values.Red,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -99,7 +99,7 @@ export const items = [
   },
   {
     name: 'Nail Polish Red D',
-    image: 'https://drive.google.com/open?id=1-0Q4RHv1XDQyT45lT8KAkIEYxNG5uc-p',
+    image: 'https://lh4.googleusercontent.com/VEt1B-p1g8wezv4-PTpCoLywkktiiN-r_3tOf4So3dERVmdrdbFQuTfzNN48rxfS7Tu0mXAOMc5XybPDgMqR=w1299-h626',
     props: {
       [props.COLOR.name]: props.COLOR.values.Red,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -110,7 +110,7 @@ export const items = [
   },
   {
     name: 'Channel Red D',
-    image: 'https://drive.google.com/open?id=18hwLuNLDPqmCa0b_4_enJlakbGg7996x',
+    image: 'https://lh5.googleusercontent.com/hyKVKyHu05T4hS_Y69C8kK6IAYo14MUnVqobCDNV8_L8PZCEnFFXUeNkj5rMnALPykKbbnp3hsdFQjbX03SJ=w1299-h626',
     props: {
       [props.COLOR.name]: props.COLOR.values.Red,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
