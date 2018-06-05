@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Card = styled.div`
+    margin-bottom: 16px;
     padding: 16px;
     box-sizing: border-box;
     background: #fff;
