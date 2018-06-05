@@ -3,6 +3,7 @@ import { injectGlobal } from 'styled-components'
 import { Button } from 'Button'
 import { Logo } from 'Logo'
 import { Main } from 'Main'
+import { Quiz } from 'Quiz'
 import { Grid } from 'react-flexbox-grid'
 import { Header, Title } from './styles'
 
@@ -16,13 +17,34 @@ injectGlobal`
   }
 `
 
-export default () => (
-  <Grid>
-    <Header>
-      <Logo />
-      <Title>Найди идеальное решение</Title>
-      <Button>Подобрать ➔</Button>
-    </Header>
-    <Main />
-  </Grid>
-)
+export default class App extends React.Component {
+  state = { quiz: false }
+
+  toggleQuiz = () => this.setState(prevState => ({ quiz: !prevState.quiz }))
+
+  render() {
+    return (
+      <Grid>
+        {this.state.quiz ? (
+          <div>
+            <Header>
+              <Logo />
+              <Title>Подбор лака</Title>
+              <Button onClick={this.toggleQuiz}>На главную</Button>
+            </Header>
+            <Quiz />
+          </div>
+        ) : (
+          <div>
+            <Header>
+              <Logo />
+              <Title>Найди идеальное решение</Title>
+              <Button onClick={this.toggleQuiz}>Подобрать ➔</Button>
+            </Header>
+            <Main />
+          </div>
+        )}
+      </Grid>
+    )
+  }
+}
