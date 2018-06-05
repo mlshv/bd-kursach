@@ -44,7 +44,7 @@ export const props = {
 export const items = [
   {
     name: 'Nail Polish Pink',
-    image: 'https://lh5.googleusercontent.com/tzJeXIki7sTPyNcdJjNG0JMa4hc2WEBjZPNgh2LD-9mKSY6qY51It3rNa8c1lzq2hxlCT1XtxdADLsbrEBZQ=w1299-h675',
+    image: 'https://pp.userapi.com/c845523/v845523621/6fbf9/cPcKpl6nAdE.jpg',
     props: {
       [props.COLOR.name]: props.COLOR.values.pink,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -55,7 +55,7 @@ export const items = [
   },
   {
     name: 'Nail Polish Orange',
-    image: 'https://lh6.googleusercontent.com/fo3aLeCTww2QboUm3_I6APRSqCK1gZwkoWpj8ew-InYeG4PpuTDoZY0y3K0o605ERp6MX5fCfS7sgnGGZzHk=w1299-h675',
+    image: 'https://pp.userapi.com/c845523/v845523621/6fc01/VJGdmjaLLWo.jpg',
     props: {
       [props.COLOR.name]: props.COLOR.values.orange,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -66,7 +66,7 @@ export const items = [
   },
   {
     name: 'Nail Polish Pup',
-    image: 'https://lh6.googleusercontent.com/REhnoOWumH1I5_D7X_Y9ScxjRLwR4LYi5ZOZhMlfKh8CiZ4QU_YlsfiEkve5svPBAzR4obZ3hSw6IIp9uorc=w1299-h675',
+    image: 'https://pp.userapi.com/c845523/v845523621/6fc09/UNGPx7qTegM.jpg',
     props: {
       [props.COLOR.name]: props.COLOR.values.purple,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -77,7 +77,7 @@ export const items = [
   },
   {
     name: 'Nail Polish Black',
-    image: 'https://lh3.googleusercontent.com/yvhvfGJGZFn0TweXNkSn6Mmg2_WBaTPEtjxiAiTxAAt1-HwXhJHkoB_jEX3loLBBCkvpKlR9KNJnL1PnAhMc=w1299-h675',
+    image: 'https://pp.userapi.com/c845523/v845523621/6fc11/XFNQAE4V2r0.jpg',
     props: {
       [props.COLOR.name]: props.COLOR.values.black,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -88,7 +88,7 @@ export const items = [
   },
   {
     name: 'Nail Polish Red L',
-    image: 'https://lh4.googleusercontent.com/PijWFdVLonXN8LpVeyaKZS5Lu0w9O5SU2hwTOnf2SJeyL-RDXbvmAcTuUGIkkNEBLgy1GyLDtLqxwOw2f-1d=w1299-h626',
+    image: 'https://pp.userapi.com/c845523/v845523621/6fc19/YUEBS442ebI.jpg',
     props: {
       [props.COLOR.name]: props.COLOR.values.Red,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -99,7 +99,7 @@ export const items = [
   },
   {
     name: 'Nail Polish Red D',
-    image: 'https://lh4.googleusercontent.com/VEt1B-p1g8wezv4-PTpCoLywkktiiN-r_3tOf4So3dERVmdrdbFQuTfzNN48rxfS7Tu0mXAOMc5XybPDgMqR=w1299-h626',
+    image: 'https://pp.userapi.com/c845523/v845523621/6fc21/s1iBi_44LRk.jpg',
     props: {
       [props.COLOR.name]: props.COLOR.values.Red,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -110,7 +110,7 @@ export const items = [
   },
   {
     name: 'Channel Red D',
-    image: 'https://lh5.googleusercontent.com/hyKVKyHu05T4hS_Y69C8kK6IAYo14MUnVqobCDNV8_L8PZCEnFFXUeNkj5rMnALPykKbbnp3hsdFQjbX03SJ=w1299-h626',
+    image: 'https://pp.userapi.com/c845523/v845523621/6fc28/aVOz_-_f1pk.jpg',
     props: {
       [props.COLOR.name]: props.COLOR.values.Red,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
@@ -121,7 +121,7 @@ export const items = [
   },
   {
     name: 'Channel Black',
-    image: 'https://lh6.googleusercontent.com/ATpJLSzO2BpQgpXOpz6v2DOg1Bpm4PUaAcXxFAJKtgWG-zvOMcR28hoXWnsWxskdQDb-d2cbQwOLe-y7TwMI=w1360-h676',
+    image: 'https://pp.userapi.com/c845523/v845523621/6fc2f/nsNhqMT7wOI.jpg',
     props: {
       [props.COLOR.name]: props.COLOR.values.black,
       [props.TEXTURE.name]: props.TEXTURE.values.glance,
