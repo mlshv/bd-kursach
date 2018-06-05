@@ -3,8 +3,6 @@ export const props = {
     name: 'Цвет',
     values: {
       red: 'Красный',
-      green: 'Зеленый',
-      blue: 'Голубой',
       pink: 'Розовый',
       purple: 'Фиолетовый',
       black: 'Черный',
@@ -28,15 +26,15 @@ export const props = {
   CONSIS: {
     name: 'Консистенция',
     values: {
-      Hard: 'Плотный',
-      Soft: 'Жидкий',
+      hard: 'Плотный',
+      soft: 'Жидкий',
     },
   },
   BRAND: {
-    name: 'Оттенок',
+    name: 'Брэнд',
     values: {
-      Channel: 'Channel',
-      Tiande: 'TianDe',
+      channel: 'Channel',
+      tiande: 'TianDe',
     },
   },
 }
@@ -90,10 +88,10 @@ export const items = [
     name: 'Nail Polish Red L',
     image: 'https://pp.userapi.com/c845523/v845523621/6fc19/YUEBS442ebI.jpg',
     props: {
-      [props.COLOR.name]: props.COLOR.values.Red,
-      [props.TEXTURE.name]: props.TEXTURE.values.glance,
+      [props.COLOR.name]: props.COLOR.values.red,
+      [props.TEXTURE.name]: props.TEXTURE.values.matte,
       [props.HUE.name]: props.HUE.values.light,
-      [props.CONSIS.name]: props.CONSIS.values.Soft,
+      [props.CONSIS.name]: props.CONSIS.values.soft,
       [props.BRAND.name]: props.BRAND.values.tiande,
     },
   },
@@ -101,10 +99,10 @@ export const items = [
     name: 'Nail Polish Red D',
     image: 'https://pp.userapi.com/c845523/v845523621/6fc21/s1iBi_44LRk.jpg',
     props: {
-      [props.COLOR.name]: props.COLOR.values.Red,
-      [props.TEXTURE.name]: props.TEXTURE.values.glance,
+      [props.COLOR.name]: props.COLOR.values.red,
+      [props.TEXTURE.name]: props.TEXTURE.values.matte,
       [props.HUE.name]: props.HUE.values.dark,
-      [props.CONSIS.name]: props.CONSIS.values.hard,
+      [props.CONSIS.name]: props.CONSIS.values.soft,
       [props.BRAND.name]: props.BRAND.values.tiande,
     },
   },
@@ -112,11 +110,11 @@ export const items = [
     name: 'Channel Red D',
     image: 'https://pp.userapi.com/c845523/v845523621/6fc28/aVOz_-_f1pk.jpg',
     props: {
-      [props.COLOR.name]: props.COLOR.values.Red,
-      [props.TEXTURE.name]: props.TEXTURE.values.glance,
+      [props.COLOR.name]: props.COLOR.values.red,
+      [props.TEXTURE.name]: props.TEXTURE.values.matte,
       [props.HUE.name]: props.HUE.values.dark,
-      [props.CONSIS.name]: props.CONSIS.values.hard,
-      [props.BRAND.name]: props.BRAND.values.Channel,
+      [props.CONSIS.name]: props.CONSIS.values.soft,
+      [props.BRAND.name]: props.BRAND.values.channel,
     },
   },
   {
@@ -124,10 +122,10 @@ export const items = [
     image: 'https://pp.userapi.com/c845523/v845523621/6fc2f/nsNhqMT7wOI.jpg',
     props: {
       [props.COLOR.name]: props.COLOR.values.black,
-      [props.TEXTURE.name]: props.TEXTURE.values.glance,
+      [props.TEXTURE.name]: props.TEXTURE.values.matte,
       [props.HUE.name]: props.HUE.values.dark,
-      [props.CONSIS.name]: props.CONSIS.values.hard,
-      [props.BRAND.name]: props.BRAND.values.Channel,
+      [props.CONSIS.name]: props.CONSIS.values.soft,
+      [props.BRAND.name]: props.BRAND.values.channel,
     },
   },
 ]
