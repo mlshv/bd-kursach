@@ -1,5 +1,7 @@
 import React from 'react'
+import { Row, Col } from 'react-flexbox-grid'
 import { Filters } from 'Filters'
+import { ProductCard } from 'ProductCard'
 import { props, items, selectItemsByPropsNames } from 'knowledgebase'
 
 export class Main extends React.Component {
@@ -22,18 +24,22 @@ export class Main extends React.Component {
       newPropNames[propName] = selectedValues
     })
 
-    console.log(newPropNames)
-    this.setState({ propNames: newPropNames }, () => console.log(this.state))
+    this.setState({ propNames: newPropNames })
   }
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Filters preset={props} onFiltersUpdate={this.handleFiltersUpdate} />
-        {selectItemsByPropsNames(items, this.state.propNames).map(item => (
-          <div key={item.name}>{item.name}</div>
-        ))}
-      </div>
+        <br />
+        <Row>
+          {selectItemsByPropsNames(items, this.state.propNames).map(item => (
+            <Col key={item.name} xs={4}>
+              <ProductCard name={item.name} />
+            </Col>
+          ))}
+        </Row>
+      </React.Fragment>
     )
   }
 }

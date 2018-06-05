@@ -3,7 +3,8 @@ import { injectGlobal } from 'styled-components'
 import { Button } from 'Button'
 import { Logo } from 'Logo'
 import { Main } from 'Main'
-import { App, Header, Title } from './styles'
+import { Grid } from 'react-flexbox-grid'
+import { Header, Title } from './styles'
 
 // eslint-disable-next-line no-unused-expressions
 injectGlobal`
@@ -11,16 +12,17 @@ injectGlobal`
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background: #efefef;
   }
 `
 
 export default () => (
-  <App>
+  <Grid>
     <Header>
       <Logo />
-      <Title>Найди своё идеальное решение</Title>
-      <Button>Подобрать</Button>
+      <Title>Найди идеальное решение</Title>
+      <Button>Подобрать ➔</Button>
     </Header>
     <Main />
-  </App>
+  </Grid>
 )

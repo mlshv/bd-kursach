@@ -1,7 +1,13 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Text = styled.h1`
+    font-size: 16px;
+    margin-bottom: 8px;
+`
 
 export const Logo = () => (
   <div>
-    <h1>P{"'"}ettitone | для твоей красоты</h1>
+    <Text>P{"'"}ettitone | для твоей красоты</Text>
   </div>
 )

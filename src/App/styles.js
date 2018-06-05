@@ -1,18 +1,15 @@
 import styled from 'styled-components'
 
-export const App = styled.div`
-  text-align: center;
-`
-
 export const Header = styled.header`
-  height: 150px;
-  padding: 20px;
-  background-color: #222;
+  margin-top: 16px;
+  padding: 32px 48px;
+  background-color: #32c59e;
+  border-radius: 16px;
   color: white;
 `
 
-export const Title = styled.h1`
-  font-size: 1.5em;
+export const Title = styled.h2`
+  font-size: 32px;
 `
 
 export const Intro = styled.p`
