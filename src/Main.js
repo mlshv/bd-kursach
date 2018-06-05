@@ -33,9 +33,9 @@ export class Main extends React.Component {
         <Filters preset={props} onFiltersUpdate={this.handleFiltersUpdate} />
         <br />
         <Row>
-          {selectItemsByPropsNames(items, this.state.propNames).map(item => (
-            <Col key={item.name} xs={4}>
-              <ProductCard name={item.name} />
+          {selectItemsByPropsNames(items, this.state.propNames).map(({ name, image }) => (
+            <Col key={name} xs={4}>
+              <ProductCard image={image} name={name} />
             </Col>
           ))}
         </Row>

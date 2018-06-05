@@ -3,7 +3,7 @@ import { Card, Name, Image } from './styles'
 
 export const ProductCard = ({ name, image }) => (
   <Card>
-    <Image>{image}</Image>
+    <Image src={image} />
     <Name>{name}</Name>
   </Card>
 )
