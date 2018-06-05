@@ -1,6 +1,9 @@
 import React from 'react'
 import { injectGlobal } from 'styled-components'
-import { App, Header, Logo, Title, Intro } from './styles'
+import { Button } from 'Button'
+import { Logo } from 'Logo'
+import { Main } from 'Main'
+import { App, Header, Title } from './styles'
 
 // eslint-disable-next-line no-unused-expressions
 injectGlobal`
@@ -15,11 +18,9 @@ export default () => (
   <App>
     <Header>
       <Logo />
-      <Title>ITC React Stack</Title>
+      <Title>Найди своё идеальное решение</Title>
+      <Button>Подобрать</Button>
     </Header>
-    <Intro>
-      Приложение запущено. При изменениях в коде страница будет автоматически
-      перезагружаться.
-    </Intro>
+    <Main />
   </App>
 )

@@ -1,7 +1,9 @@
 {
   "extends": "airbnb",
+  "parser": "babel-eslint",
   "rules": {
     "semi": ["error", "never"],
+    "import/prefer-default-export": "off",
     "react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
     "indent": ["error", 2],
     "react/prop-types": "off"

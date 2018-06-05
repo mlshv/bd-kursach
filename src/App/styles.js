@@ -1,27 +1,7 @@
 import styled from 'styled-components'
-import logo from './logo.svg'
 
 export const App = styled.div`
   text-align: center;
-`
-
-export const Logo = styled.img.attrs({
-  src: logo,
-  alt: 'logo',
-})`
-  height: 80px;
-  animation: App-logo-animation infinite 2.5s ease;
-  @keyframes App-logo-animation {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
 `
 
 export const Header = styled.header`
